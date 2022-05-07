@@ -17,6 +17,10 @@
 		C4AC912A2826E8C80080B176 /* RadioCanada-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C4AC91252826E8C80080B176 /* RadioCanada-Bold.ttf */; };
 		C4AC912B2826E8C80080B176 /* RadioCanada-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C4AC91262826E8C80080B176 /* RadioCanada-Medium.ttf */; };
 		C4AC912C2826E8C80080B176 /* RadioCanada-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C4AC91272826E8C80080B176 /* RadioCanada-SemiBold.ttf */; };
+		C4AC91322826E9490080B176 /* UIImageView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4AC912E2826E9490080B176 /* UIImageView+Extension.swift */; };
+		C4AC91332826E9490080B176 /* UIFont+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4AC912F2826E9490080B176 /* UIFont+Extension.swift */; };
+		C4AC91342826E9490080B176 /* UINavigationController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4AC91302826E9490080B176 /* UINavigationController+Extension.swift */; };
+		C4AC91352826E9490080B176 /* UITextField+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4AC91312826E9490080B176 /* UITextField+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +36,10 @@
 		C4AC91252826E8C80080B176 /* RadioCanada-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RadioCanada-Bold.ttf"; sourceTree = "<group>"; };
 		C4AC91262826E8C80080B176 /* RadioCanada-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RadioCanada-Medium.ttf"; sourceTree = "<group>"; };
 		C4AC91272826E8C80080B176 /* RadioCanada-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RadioCanada-SemiBold.ttf"; sourceTree = "<group>"; };
+		C4AC912E2826E9490080B176 /* UIImageView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImageView+Extension.swift"; sourceTree = "<group>"; };
+		C4AC912F2826E9490080B176 /* UIFont+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIFont+Extension.swift"; sourceTree = "<group>"; };
+		C4AC91302826E9490080B176 /* UINavigationController+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UINavigationController+Extension.swift"; sourceTree = "<group>"; };
+		C4AC91312826E9490080B176 /* UITextField+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITextField+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +93,7 @@
 		C4AC911D2826E7BD0080B176 /* Common */ = {
 			isa = PBXGroup;
 			children = (
+				C4AC912D2826E9490080B176 /* Extension */,
 				C4AC91222826E8C80080B176 /* Font */,
 				C4AC911E2826E7E90080B176 /* GenericComponent */,
 			);
@@ -117,6 +126,17 @@
 				C4AC91272826E8C80080B176 /* RadioCanada-SemiBold.ttf */,
 			);
 			path = Font;
+			sourceTree = "<group>";
+		};
+		C4AC912D2826E9490080B176 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				C4AC912E2826E9490080B176 /* UIImageView+Extension.swift */,
+				C4AC912F2826E9490080B176 /* UIFont+Extension.swift */,
+				C4AC91302826E9490080B176 /* UINavigationController+Extension.swift */,
+				C4AC91312826E9490080B176 /* UITextField+Extension.swift */,
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -196,7 +216,11 @@
 			files = (
 				C4AC90D12825EDAC0080B176 /* AppDelegate.swift in Sources */,
 				C4AC91212826E7E90080B176 /* LoadingIndicatorViewController.swift in Sources */,
+				C4AC91352826E9490080B176 /* UITextField+Extension.swift in Sources */,
+				C4AC91322826E9490080B176 /* UIImageView+Extension.swift in Sources */,
+				C4AC91332826E9490080B176 /* UIFont+Extension.swift in Sources */,
 				C4AC90DB2825EDAC0080B176 /* MovieDB.xcdatamodeld in Sources */,
+				C4AC91342826E9490080B176 /* UINavigationController+Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
