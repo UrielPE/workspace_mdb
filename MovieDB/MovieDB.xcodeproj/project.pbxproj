@@ -11,14 +11,26 @@
 		C4AC90DB2825EDAC0080B176 /* MovieDB.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C4AC90D92825EDAC0080B176 /* MovieDB.xcdatamodeld */; };
 		C4AC90DD2825EDAD0080B176 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4AC90DC2825EDAD0080B176 /* Assets.xcassets */; };
 		C4AC90E02825EDAD0080B176 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4AC90DE2825EDAD0080B176 /* LaunchScreen.storyboard */; };
-		C4AC90E92825F9950080B176 /* MovieLoginMain.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4AC90E82825F9950080B176 /* MovieLoginMain.swift */; };
-		C4AC90EB2826DD830080B176 /* MovieLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4AC90EA2826DD830080B176 /* MovieLoginViewController.swift */; };
-		C4AC90ED2826DD960080B176 /* MovieLoginPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4AC90EC2826DD960080B176 /* MovieLoginPresenter.swift */; };
-		C4AC90EF2826DDA10080B176 /* MovieLoginInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4AC90EE2826DDA10080B176 /* MovieLoginInteractor.swift */; };
-		C4AC90F12826DDAD0080B176 /* MovieLoginRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4AC90F02826DDAD0080B176 /* MovieLoginRouter.swift */; };
-		C4AC90F32826DDB70080B176 /* MovieLoginProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4AC90F22826DDB70080B176 /* MovieLoginProtocol.swift */; };
-		C4AC90F72826DEAA0080B176 /* MovieLoginViewController_Presenter+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4AC90F62826DEAA0080B176 /* MovieLoginViewController_Presenter+Extension.swift */; };
-		C4AC90FA2826E5860080B176 /* MovieLoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4AC90F92826E5860080B176 /* MovieLoginView.swift */; };
+		C4AC91212826E7E90080B176 /* LoadingIndicatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4AC91202826E7E90080B176 /* LoadingIndicatorViewController.swift */; };
+		C4AC91282826E8C80080B176 /* RadioCanada-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C4AC91232826E8C80080B176 /* RadioCanada-Light.ttf */; };
+		C4AC91292826E8C80080B176 /* RadioCanada-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C4AC91242826E8C80080B176 /* RadioCanada-Regular.ttf */; };
+		C4AC912A2826E8C80080B176 /* RadioCanada-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C4AC91252826E8C80080B176 /* RadioCanada-Bold.ttf */; };
+		C4AC912B2826E8C80080B176 /* RadioCanada-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C4AC91262826E8C80080B176 /* RadioCanada-Medium.ttf */; };
+		C4AC912C2826E8C80080B176 /* RadioCanada-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C4AC91272826E8C80080B176 /* RadioCanada-SemiBold.ttf */; };
+		C4AC91322826E9490080B176 /* UIImageView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4AC912E2826E9490080B176 /* UIImageView+Extension.swift */; };
+		C4AC91332826E9490080B176 /* UIFont+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4AC912F2826E9490080B176 /* UIFont+Extension.swift */; };
+		C4AC91342826E9490080B176 /* UINavigationController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4AC91302826E9490080B176 /* UINavigationController+Extension.swift */; };
+		C4AC91352826E9490080B176 /* UITextField+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4AC91312826E9490080B176 /* UITextField+Extension.swift */; };
+		C4AC91382826EA820080B176 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4AC91372826EA820080B176 /* Constant.swift */; };
+		C4AC913B2826EAD30080B176 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = C4AC913A2826EAD30080B176 /* Localizable.strings */; };
+		C4AC914828272BCD0080B176 /* MovieLoginViewController_Presenter+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4AC913F28272BCD0080B176 /* MovieLoginViewController_Presenter+Extension.swift */; };
+		C4AC914928272BCD0080B176 /* MovieLoginMain.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4AC914028272BCD0080B176 /* MovieLoginMain.swift */; };
+		C4AC914A28272BCD0080B176 /* MovieLoginRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4AC914128272BCD0080B176 /* MovieLoginRouter.swift */; };
+		C4AC914B28272BCD0080B176 /* MovieLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4AC914228272BCD0080B176 /* MovieLoginViewController.swift */; };
+		C4AC914C28272BCD0080B176 /* MovieLoginProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4AC914328272BCD0080B176 /* MovieLoginProtocol.swift */; };
+		C4AC914D28272BCD0080B176 /* MovieLoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4AC914528272BCD0080B176 /* MovieLoginView.swift */; };
+		C4AC914E28272BCD0080B176 /* MovieLoginInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4AC914628272BCD0080B176 /* MovieLoginInteractor.swift */; };
+		C4AC914F28272BCD0080B176 /* MovieLoginPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4AC914728272BCD0080B176 /* MovieLoginPresenter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,14 +40,26 @@
 		C4AC90DC2825EDAD0080B176 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C4AC90DF2825EDAD0080B176 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C4AC90E12825EDAD0080B176 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C4AC90E82825F9950080B176 /* MovieLoginMain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieLoginMain.swift; sourceTree = "<group>"; };
-		C4AC90EA2826DD830080B176 /* MovieLoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieLoginViewController.swift; sourceTree = "<group>"; };
-		C4AC90EC2826DD960080B176 /* MovieLoginPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieLoginPresenter.swift; sourceTree = "<group>"; };
-		C4AC90EE2826DDA10080B176 /* MovieLoginInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieLoginInteractor.swift; sourceTree = "<group>"; };
-		C4AC90F02826DDAD0080B176 /* MovieLoginRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieLoginRouter.swift; sourceTree = "<group>"; };
-		C4AC90F22826DDB70080B176 /* MovieLoginProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieLoginProtocol.swift; sourceTree = "<group>"; };
-		C4AC90F62826DEAA0080B176 /* MovieLoginViewController_Presenter+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MovieLoginViewController_Presenter+Extension.swift"; sourceTree = "<group>"; };
-		C4AC90F92826E5860080B176 /* MovieLoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieLoginView.swift; sourceTree = "<group>"; };
+		C4AC91202826E7E90080B176 /* LoadingIndicatorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadingIndicatorViewController.swift; sourceTree = "<group>"; };
+		C4AC91232826E8C80080B176 /* RadioCanada-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RadioCanada-Light.ttf"; sourceTree = "<group>"; };
+		C4AC91242826E8C80080B176 /* RadioCanada-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RadioCanada-Regular.ttf"; sourceTree = "<group>"; };
+		C4AC91252826E8C80080B176 /* RadioCanada-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RadioCanada-Bold.ttf"; sourceTree = "<group>"; };
+		C4AC91262826E8C80080B176 /* RadioCanada-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RadioCanada-Medium.ttf"; sourceTree = "<group>"; };
+		C4AC91272826E8C80080B176 /* RadioCanada-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RadioCanada-SemiBold.ttf"; sourceTree = "<group>"; };
+		C4AC912E2826E9490080B176 /* UIImageView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImageView+Extension.swift"; sourceTree = "<group>"; };
+		C4AC912F2826E9490080B176 /* UIFont+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIFont+Extension.swift"; sourceTree = "<group>"; };
+		C4AC91302826E9490080B176 /* UINavigationController+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UINavigationController+Extension.swift"; sourceTree = "<group>"; };
+		C4AC91312826E9490080B176 /* UITextField+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITextField+Extension.swift"; sourceTree = "<group>"; };
+		C4AC91372826EA820080B176 /* Constant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		C4AC913A2826EAD30080B176 /* Localizable.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		C4AC913F28272BCD0080B176 /* MovieLoginViewController_Presenter+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "MovieLoginViewController_Presenter+Extension.swift"; sourceTree = "<group>"; };
+		C4AC914028272BCD0080B176 /* MovieLoginMain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieLoginMain.swift; sourceTree = "<group>"; };
+		C4AC914128272BCD0080B176 /* MovieLoginRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieLoginRouter.swift; sourceTree = "<group>"; };
+		C4AC914228272BCD0080B176 /* MovieLoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieLoginViewController.swift; sourceTree = "<group>"; };
+		C4AC914328272BCD0080B176 /* MovieLoginProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieLoginProtocol.swift; sourceTree = "<group>"; };
+		C4AC914528272BCD0080B176 /* MovieLoginView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieLoginView.swift; sourceTree = "<group>"; };
+		C4AC914628272BCD0080B176 /* MovieLoginInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieLoginInteractor.swift; sourceTree = "<group>"; };
+		C4AC914728272BCD0080B176 /* MovieLoginPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieLoginPresenter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,7 +92,7 @@
 		C4AC90CF2825EDAC0080B176 /* MovieDB */ = {
 			isa = PBXGroup;
 			children = (
-				C4AC90E72825F93C0080B176 /* MovieLogin */,
+				C4AC911C2826E7BD0080B176 /* Movie */,
 				C4AC90D02825EDAC0080B176 /* AppDelegate.swift */,
 				C4AC90DC2825EDAD0080B176 /* Assets.xcassets */,
 				C4AC90DE2825EDAD0080B176 /* LaunchScreen.storyboard */,
@@ -78,41 +102,117 @@
 			path = MovieDB;
 			sourceTree = "<group>";
 		};
-		C4AC90E72825F93C0080B176 /* MovieLogin */ = {
+		C4AC911C2826E7BD0080B176 /* Movie */ = {
 			isa = PBXGroup;
 			children = (
-				C4AC90E82825F9950080B176 /* MovieLoginMain.swift */,
-				C4AC90EA2826DD830080B176 /* MovieLoginViewController.swift */,
-				C4AC90EC2826DD960080B176 /* MovieLoginPresenter.swift */,
-				C4AC90EE2826DDA10080B176 /* MovieLoginInteractor.swift */,
-				C4AC90F02826DDAD0080B176 /* MovieLoginRouter.swift */,
-				C4AC90F22826DDB70080B176 /* MovieLoginProtocol.swift */,
-				C4AC90F82826E5470080B176 /* View */,
-				C4AC90F42826DE8C0080B176 /* Extension */,
+				C4AC913C28272BCD0080B176 /* MovieLogin */,
+				C4AC911D2826E7BD0080B176 /* Common */,
 			);
-			path = MovieLogin;
+			path = Movie;
 			sourceTree = "<group>";
 		};
-		C4AC90F42826DE8C0080B176 /* Extension */ = {
+		C4AC911D2826E7BD0080B176 /* Common */ = {
 			isa = PBXGroup;
 			children = (
-				C4AC90F52826DE9F0080B176 /* MovieLoginViewController */,
+				C4AC91392826EAD30080B176 /* StringLiterals */,
+				C4AC91362826EA820080B176 /* Constant */,
+				C4AC912D2826E9490080B176 /* Extension */,
+				C4AC91222826E8C80080B176 /* Font */,
+				C4AC911E2826E7E90080B176 /* GenericComponent */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		C4AC911E2826E7E90080B176 /* GenericComponent */ = {
+			isa = PBXGroup;
+			children = (
+				C4AC911F2826E7E90080B176 /* LoadingIndicator */,
+			);
+			path = GenericComponent;
+			sourceTree = "<group>";
+		};
+		C4AC911F2826E7E90080B176 /* LoadingIndicator */ = {
+			isa = PBXGroup;
+			children = (
+				C4AC91202826E7E90080B176 /* LoadingIndicatorViewController.swift */,
+			);
+			path = LoadingIndicator;
+			sourceTree = "<group>";
+		};
+		C4AC91222826E8C80080B176 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				C4AC91232826E8C80080B176 /* RadioCanada-Light.ttf */,
+				C4AC91242826E8C80080B176 /* RadioCanada-Regular.ttf */,
+				C4AC91252826E8C80080B176 /* RadioCanada-Bold.ttf */,
+				C4AC91262826E8C80080B176 /* RadioCanada-Medium.ttf */,
+				C4AC91272826E8C80080B176 /* RadioCanada-SemiBold.ttf */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
+		C4AC912D2826E9490080B176 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				C4AC912E2826E9490080B176 /* UIImageView+Extension.swift */,
+				C4AC912F2826E9490080B176 /* UIFont+Extension.swift */,
+				C4AC91302826E9490080B176 /* UINavigationController+Extension.swift */,
+				C4AC91312826E9490080B176 /* UITextField+Extension.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
 		};
-		C4AC90F52826DE9F0080B176 /* MovieLoginViewController */ = {
+		C4AC91362826EA820080B176 /* Constant */ = {
 			isa = PBXGroup;
 			children = (
-				C4AC90F62826DEAA0080B176 /* MovieLoginViewController_Presenter+Extension.swift */,
+				C4AC91372826EA820080B176 /* Constant.swift */,
+			);
+			path = Constant;
+			sourceTree = "<group>";
+		};
+		C4AC91392826EAD30080B176 /* StringLiterals */ = {
+			isa = PBXGroup;
+			children = (
+				C4AC913A2826EAD30080B176 /* Localizable.strings */,
+			);
+			path = StringLiterals;
+			sourceTree = "<group>";
+		};
+		C4AC913C28272BCD0080B176 /* MovieLogin */ = {
+			isa = PBXGroup;
+			children = (
+				C4AC914028272BCD0080B176 /* MovieLoginMain.swift */,
+				C4AC914228272BCD0080B176 /* MovieLoginViewController.swift */,
+				C4AC914728272BCD0080B176 /* MovieLoginPresenter.swift */,
+				C4AC914628272BCD0080B176 /* MovieLoginInteractor.swift */,
+				C4AC914128272BCD0080B176 /* MovieLoginRouter.swift */,
+				C4AC914328272BCD0080B176 /* MovieLoginProtocol.swift */,
+				C4AC913D28272BCD0080B176 /* Extension */,
+				C4AC914428272BCD0080B176 /* View */,
+			);
+			path = MovieLogin;
+			sourceTree = "<group>";
+		};
+		C4AC913D28272BCD0080B176 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				C4AC913E28272BCD0080B176 /* MovieLoginViewController */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		C4AC913E28272BCD0080B176 /* MovieLoginViewController */ = {
+			isa = PBXGroup;
+			children = (
+				C4AC913F28272BCD0080B176 /* MovieLoginViewController_Presenter+Extension.swift */,
 			);
 			path = MovieLoginViewController;
 			sourceTree = "<group>";
 		};
-		C4AC90F82826E5470080B176 /* View */ = {
+		C4AC914428272BCD0080B176 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				C4AC90F92826E5860080B176 /* MovieLoginView.swift */,
+				C4AC914528272BCD0080B176 /* MovieLoginView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -176,7 +276,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				C4AC90E02825EDAD0080B176 /* LaunchScreen.storyboard in Resources */,
+				C4AC91292826E8C80080B176 /* RadioCanada-Regular.ttf in Resources */,
+				C4AC912C2826E8C80080B176 /* RadioCanada-SemiBold.ttf in Resources */,
+				C4AC91282826E8C80080B176 /* RadioCanada-Light.ttf in Resources */,
+				C4AC912B2826E8C80080B176 /* RadioCanada-Medium.ttf in Resources */,
+				C4AC913B2826EAD30080B176 /* Localizable.strings in Resources */,
 				C4AC90DD2825EDAD0080B176 /* Assets.xcassets in Resources */,
+				C4AC912A2826E8C80080B176 /* RadioCanada-Bold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -187,16 +293,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C4AC90F72826DEAA0080B176 /* MovieLoginViewController_Presenter+Extension.swift in Sources */,
-				C4AC90F12826DDAD0080B176 /* MovieLoginRouter.swift in Sources */,
-				C4AC90ED2826DD960080B176 /* MovieLoginPresenter.swift in Sources */,
+				C4AC914C28272BCD0080B176 /* MovieLoginProtocol.swift in Sources */,
+				C4AC914828272BCD0080B176 /* MovieLoginViewController_Presenter+Extension.swift in Sources */,
 				C4AC90D12825EDAC0080B176 /* AppDelegate.swift in Sources */,
-				C4AC90EB2826DD830080B176 /* MovieLoginViewController.swift in Sources */,
-				C4AC90FA2826E5860080B176 /* MovieLoginView.swift in Sources */,
-				C4AC90E92825F9950080B176 /* MovieLoginMain.swift in Sources */,
+				C4AC914A28272BCD0080B176 /* MovieLoginRouter.swift in Sources */,
+				C4AC91212826E7E90080B176 /* LoadingIndicatorViewController.swift in Sources */,
+				C4AC914F28272BCD0080B176 /* MovieLoginPresenter.swift in Sources */,
+				C4AC914D28272BCD0080B176 /* MovieLoginView.swift in Sources */,
+				C4AC91352826E9490080B176 /* UITextField+Extension.swift in Sources */,
+				C4AC914B28272BCD0080B176 /* MovieLoginViewController.swift in Sources */,
+				C4AC91382826EA820080B176 /* Constant.swift in Sources */,
+				C4AC914928272BCD0080B176 /* MovieLoginMain.swift in Sources */,
+				C4AC91322826E9490080B176 /* UIImageView+Extension.swift in Sources */,
+				C4AC91332826E9490080B176 /* UIFont+Extension.swift in Sources */,
 				C4AC90DB2825EDAC0080B176 /* MovieDB.xcdatamodeld in Sources */,
-				C4AC90F32826DDB70080B176 /* MovieLoginProtocol.swift in Sources */,
-				C4AC90EF2826DDA10080B176 /* MovieLoginInteractor.swift in Sources */,
+				C4AC91342826E9490080B176 /* UINavigationController+Extension.swift in Sources */,
+				C4AC914E28272BCD0080B176 /* MovieLoginInteractor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
