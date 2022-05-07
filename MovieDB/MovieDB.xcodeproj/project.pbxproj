@@ -18,6 +18,7 @@
 		C4AC90F12826DDAD0080B176 /* MovieLoginRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4AC90F02826DDAD0080B176 /* MovieLoginRouter.swift */; };
 		C4AC90F32826DDB70080B176 /* MovieLoginProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4AC90F22826DDB70080B176 /* MovieLoginProtocol.swift */; };
 		C4AC90F72826DEAA0080B176 /* MovieLoginViewController_Presenter+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4AC90F62826DEAA0080B176 /* MovieLoginViewController_Presenter+Extension.swift */; };
+		C4AC90FA2826E5860080B176 /* MovieLoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4AC90F92826E5860080B176 /* MovieLoginView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		C4AC90F02826DDAD0080B176 /* MovieLoginRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieLoginRouter.swift; sourceTree = "<group>"; };
 		C4AC90F22826DDB70080B176 /* MovieLoginProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieLoginProtocol.swift; sourceTree = "<group>"; };
 		C4AC90F62826DEAA0080B176 /* MovieLoginViewController_Presenter+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MovieLoginViewController_Presenter+Extension.swift"; sourceTree = "<group>"; };
+		C4AC90F92826E5860080B176 /* MovieLoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieLoginView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +87,7 @@
 				C4AC90EE2826DDA10080B176 /* MovieLoginInteractor.swift */,
 				C4AC90F02826DDAD0080B176 /* MovieLoginRouter.swift */,
 				C4AC90F22826DDB70080B176 /* MovieLoginProtocol.swift */,
+				C4AC90F82826E5470080B176 /* View */,
 				C4AC90F42826DE8C0080B176 /* Extension */,
 			);
 			path = MovieLogin;
@@ -104,6 +107,14 @@
 				C4AC90F62826DEAA0080B176 /* MovieLoginViewController_Presenter+Extension.swift */,
 			);
 			path = MovieLoginViewController;
+			sourceTree = "<group>";
+		};
+		C4AC90F82826E5470080B176 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C4AC90F92826E5860080B176 /* MovieLoginView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -181,6 +192,7 @@
 				C4AC90ED2826DD960080B176 /* MovieLoginPresenter.swift in Sources */,
 				C4AC90D12825EDAC0080B176 /* AppDelegate.swift in Sources */,
 				C4AC90EB2826DD830080B176 /* MovieLoginViewController.swift in Sources */,
+				C4AC90FA2826E5860080B176 /* MovieLoginView.swift in Sources */,
 				C4AC90E92825F9950080B176 /* MovieLoginMain.swift in Sources */,
 				C4AC90DB2825EDAC0080B176 /* MovieDB.xcdatamodeld in Sources */,
 				C4AC90F32826DDB70080B176 /* MovieLoginProtocol.swift in Sources */,
