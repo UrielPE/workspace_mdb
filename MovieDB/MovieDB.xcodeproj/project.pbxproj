@@ -21,6 +21,7 @@
 		C4AC91332826E9490080B176 /* UIFont+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4AC912F2826E9490080B176 /* UIFont+Extension.swift */; };
 		C4AC91342826E9490080B176 /* UINavigationController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4AC91302826E9490080B176 /* UINavigationController+Extension.swift */; };
 		C4AC91352826E9490080B176 /* UITextField+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4AC91312826E9490080B176 /* UITextField+Extension.swift */; };
+		C4AC91382826EA820080B176 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4AC91372826EA820080B176 /* Constant.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +41,7 @@
 		C4AC912F2826E9490080B176 /* UIFont+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIFont+Extension.swift"; sourceTree = "<group>"; };
 		C4AC91302826E9490080B176 /* UINavigationController+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UINavigationController+Extension.swift"; sourceTree = "<group>"; };
 		C4AC91312826E9490080B176 /* UITextField+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITextField+Extension.swift"; sourceTree = "<group>"; };
+		C4AC91372826EA820080B176 /* Constant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +95,7 @@
 		C4AC911D2826E7BD0080B176 /* Common */ = {
 			isa = PBXGroup;
 			children = (
+				C4AC91362826EA820080B176 /* Constant */,
 				C4AC912D2826E9490080B176 /* Extension */,
 				C4AC91222826E8C80080B176 /* Font */,
 				C4AC911E2826E7E90080B176 /* GenericComponent */,
@@ -137,6 +140,14 @@
 				C4AC91312826E9490080B176 /* UITextField+Extension.swift */,
 			);
 			path = Extension;
+			sourceTree = "<group>";
+		};
+		C4AC91362826EA820080B176 /* Constant */ = {
+			isa = PBXGroup;
+			children = (
+				C4AC91372826EA820080B176 /* Constant.swift */,
+			);
+			path = Constant;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -217,6 +228,7 @@
 				C4AC90D12825EDAC0080B176 /* AppDelegate.swift in Sources */,
 				C4AC91212826E7E90080B176 /* LoadingIndicatorViewController.swift in Sources */,
 				C4AC91352826E9490080B176 /* UITextField+Extension.swift in Sources */,
+				C4AC91382826EA820080B176 /* Constant.swift in Sources */,
 				C4AC91322826E9490080B176 /* UIImageView+Extension.swift in Sources */,
 				C4AC91332826E9490080B176 /* UIFont+Extension.swift in Sources */,
 				C4AC90DB2825EDAC0080B176 /* MovieDB.xcdatamodeld in Sources */,
