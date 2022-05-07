@@ -1,0 +1,22 @@
+/* 
+  Localizable.strings
+  MovieDB
+
+  Created by Uriel Peña Estel on 30/04/22.
+  
+*/
+
+//MARK: Login
+"login-company-title"          =   "MovieDB";
+"login-username-placeholder"   =   "Username";
+"login-password-placeholder"   =   "Password";
+"login-sign-in"                =   "Sign In";
+
+//MARK: Dashboard
+"dashboard-navigation-title"   =   "TV Shows";
+
+//Menu Options
+"dashboard-navigation-menu-title"           =   "What do you want to do?";
+"dashboard-navigation-menu-view-profile"    =   "View Profile";
+"dashboard-navigation-menu-log-out"         =   "Log out";
+"dashboard-navigation-menu-cancel"          =   "Cancel";

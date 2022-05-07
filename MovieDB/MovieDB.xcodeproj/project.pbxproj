@@ -22,6 +22,7 @@
 		C4AC91342826E9490080B176 /* UINavigationController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4AC91302826E9490080B176 /* UINavigationController+Extension.swift */; };
 		C4AC91352826E9490080B176 /* UITextField+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4AC91312826E9490080B176 /* UITextField+Extension.swift */; };
 		C4AC91382826EA820080B176 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4AC91372826EA820080B176 /* Constant.swift */; };
+		C4AC913B2826EAD30080B176 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = C4AC913A2826EAD30080B176 /* Localizable.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +43,7 @@
 		C4AC91302826E9490080B176 /* UINavigationController+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UINavigationController+Extension.swift"; sourceTree = "<group>"; };
 		C4AC91312826E9490080B176 /* UITextField+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITextField+Extension.swift"; sourceTree = "<group>"; };
 		C4AC91372826EA820080B176 /* Constant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		C4AC913A2826EAD30080B176 /* Localizable.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +97,7 @@
 		C4AC911D2826E7BD0080B176 /* Common */ = {
 			isa = PBXGroup;
 			children = (
+				C4AC91392826EAD30080B176 /* StringLiterals */,
 				C4AC91362826EA820080B176 /* Constant */,
 				C4AC912D2826E9490080B176 /* Extension */,
 				C4AC91222826E8C80080B176 /* Font */,
@@ -148,6 +151,14 @@
 				C4AC91372826EA820080B176 /* Constant.swift */,
 			);
 			path = Constant;
+			sourceTree = "<group>";
+		};
+		C4AC91392826EAD30080B176 /* StringLiterals */ = {
+			isa = PBXGroup;
+			children = (
+				C4AC913A2826EAD30080B176 /* Localizable.strings */,
+			);
+			path = StringLiterals;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -213,6 +224,7 @@
 				C4AC912C2826E8C80080B176 /* RadioCanada-SemiBold.ttf in Resources */,
 				C4AC91282826E8C80080B176 /* RadioCanada-Light.ttf in Resources */,
 				C4AC912B2826E8C80080B176 /* RadioCanada-Medium.ttf in Resources */,
+				C4AC913B2826EAD30080B176 /* Localizable.strings in Resources */,
 				C4AC90DD2825EDAD0080B176 /* Assets.xcassets in Resources */,
 				C4AC912A2826E8C80080B176 /* RadioCanada-Bold.ttf in Resources */,
 			);
