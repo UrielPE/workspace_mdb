@@ -12,6 +12,11 @@
 		C4AC90DD2825EDAD0080B176 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4AC90DC2825EDAD0080B176 /* Assets.xcassets */; };
 		C4AC90E02825EDAD0080B176 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4AC90DE2825EDAD0080B176 /* LaunchScreen.storyboard */; };
 		C4AC91212826E7E90080B176 /* LoadingIndicatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4AC91202826E7E90080B176 /* LoadingIndicatorViewController.swift */; };
+		C4AC91282826E8C80080B176 /* RadioCanada-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C4AC91232826E8C80080B176 /* RadioCanada-Light.ttf */; };
+		C4AC91292826E8C80080B176 /* RadioCanada-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C4AC91242826E8C80080B176 /* RadioCanada-Regular.ttf */; };
+		C4AC912A2826E8C80080B176 /* RadioCanada-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C4AC91252826E8C80080B176 /* RadioCanada-Bold.ttf */; };
+		C4AC912B2826E8C80080B176 /* RadioCanada-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C4AC91262826E8C80080B176 /* RadioCanada-Medium.ttf */; };
+		C4AC912C2826E8C80080B176 /* RadioCanada-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C4AC91272826E8C80080B176 /* RadioCanada-SemiBold.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +27,11 @@
 		C4AC90DF2825EDAD0080B176 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C4AC90E12825EDAD0080B176 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C4AC91202826E7E90080B176 /* LoadingIndicatorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadingIndicatorViewController.swift; sourceTree = "<group>"; };
+		C4AC91232826E8C80080B176 /* RadioCanada-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RadioCanada-Light.ttf"; sourceTree = "<group>"; };
+		C4AC91242826E8C80080B176 /* RadioCanada-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RadioCanada-Regular.ttf"; sourceTree = "<group>"; };
+		C4AC91252826E8C80080B176 /* RadioCanada-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RadioCanada-Bold.ttf"; sourceTree = "<group>"; };
+		C4AC91262826E8C80080B176 /* RadioCanada-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RadioCanada-Medium.ttf"; sourceTree = "<group>"; };
+		C4AC91272826E8C80080B176 /* RadioCanada-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RadioCanada-SemiBold.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +85,7 @@
 		C4AC911D2826E7BD0080B176 /* Common */ = {
 			isa = PBXGroup;
 			children = (
+				C4AC91222826E8C80080B176 /* Font */,
 				C4AC911E2826E7E90080B176 /* GenericComponent */,
 			);
 			path = Common;
@@ -94,6 +105,18 @@
 				C4AC91202826E7E90080B176 /* LoadingIndicatorViewController.swift */,
 			);
 			path = LoadingIndicator;
+			sourceTree = "<group>";
+		};
+		C4AC91222826E8C80080B176 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				C4AC91232826E8C80080B176 /* RadioCanada-Light.ttf */,
+				C4AC91242826E8C80080B176 /* RadioCanada-Regular.ttf */,
+				C4AC91252826E8C80080B176 /* RadioCanada-Bold.ttf */,
+				C4AC91262826E8C80080B176 /* RadioCanada-Medium.ttf */,
+				C4AC91272826E8C80080B176 /* RadioCanada-SemiBold.ttf */,
+			);
+			path = Font;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -155,7 +178,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				C4AC90E02825EDAD0080B176 /* LaunchScreen.storyboard in Resources */,
+				C4AC91292826E8C80080B176 /* RadioCanada-Regular.ttf in Resources */,
+				C4AC912C2826E8C80080B176 /* RadioCanada-SemiBold.ttf in Resources */,
+				C4AC91282826E8C80080B176 /* RadioCanada-Light.ttf in Resources */,
+				C4AC912B2826E8C80080B176 /* RadioCanada-Medium.ttf in Resources */,
 				C4AC90DD2825EDAD0080B176 /* Assets.xcassets in Resources */,
+				C4AC912A2826E8C80080B176 /* RadioCanada-Bold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
