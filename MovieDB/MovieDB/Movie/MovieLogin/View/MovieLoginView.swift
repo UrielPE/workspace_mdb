@@ -2,7 +2,7 @@
 //  MovieLoginView.swift
 //  MovieDB
 //
-//  Created by Uriel Peña Estel on 07/05/22.
+//  Created by Uriel Peña Estel on 30/04/22.
 //
 
 import UIKit
@@ -75,6 +75,7 @@ class MovieLoginView: UIView
         let textField           =   UITextField()
         textField.setLeftPaddingPoints(15.0)
         textField.tag                   =   1
+        textField.delegate              =   self
         textField.keyboardType          =   .emailAddress
         textField.layer.cornerRadius    =   3
         textField.textColor             =   UIColor.white
@@ -91,6 +92,7 @@ class MovieLoginView: UIView
         let textField           =   UITextField()
         textField.setLeftPaddingPoints(15.0)
         textField.tag                   =   2
+        textField.delegate              =   self
         textField.layer.cornerRadius    =   3
         textField.isSecureTextEntry     =   true
         textField.textColor             =   UIColor.white
@@ -110,6 +112,7 @@ class MovieLoginView: UIView
         button.backgroundColor  =   UIColor(red: 229/255, green: 9/255, blue: 20/255, alpha: 1)
         button.setTitle(NSLocalizedString("login-sign-in", comment: ""), for: .normal)
         button.setTitleColor(UIColor.white, for: .normal)
+        button.addTarget(self, action: #selector(self.signIn), for: .touchUpInside)
         button.translatesAutoresizingMaskIntoConstraints    =   false
         
         return button
@@ -124,6 +127,8 @@ class MovieLoginView: UIView
         
         return label
     }()
+    
+    internal var delegate   :   MovieLoginInnerViewToParentView?
     
     public override init(frame: CGRect)
     {
