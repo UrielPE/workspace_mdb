@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C43F81F5282866D100D9C568 /* MovieProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C43F81F4282866D100D9C568 /* MovieProfileViewController.swift */; };
 		C4AC90D12825EDAC0080B176 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4AC90D02825EDAC0080B176 /* AppDelegate.swift */; };
 		C4AC90DB2825EDAC0080B176 /* MovieDB.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C4AC90D92825EDAC0080B176 /* MovieDB.xcdatamodeld */; };
 		C4AC90DD2825EDAD0080B176 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4AC90DC2825EDAD0080B176 /* Assets.xcassets */; };
@@ -55,6 +56,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C43F81F4282866D100D9C568 /* MovieProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieProfileViewController.swift; sourceTree = "<group>"; };
 		C4AC90CD2825EDAC0080B176 /* MovieDB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MovieDB.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4AC90D02825EDAC0080B176 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C4AC90DA2825EDAC0080B176 /* MovieDB.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MovieDB.xcdatamodel; sourceTree = "<group>"; };
@@ -118,6 +120,7 @@
 		C43F81F32828662100D9C568 /* MovieProfile */ = {
 			isa = PBXGroup;
 			children = (
+				C43F81F4282866D100D9C568 /* MovieProfileViewController.swift */,
 			);
 			path = MovieProfile;
 			sourceTree = "<group>";
@@ -466,6 +469,7 @@
 				C4AC9151282859530080B176 /* MovieLoginViewProtocol.swift in Sources */,
 				C4AC916828285D0D0080B176 /* MovieDashboardViewController.swift in Sources */,
 				C4AC915F28285A560080B176 /* MovieLoginViewController_InnerView+Extension.swift in Sources */,
+				C43F81F5282866D100D9C568 /* MovieProfileViewController.swift in Sources */,
 				C4AC918228285DDA0080B176 /* MovieDashboardViewController_Presenter+Extension.swift in Sources */,
 				C4AC91332826E9490080B176 /* UIFont+Extension.swift in Sources */,
 				C4AC90DB2825EDAC0080B176 /* MovieDB.xcdatamodeld in Sources */,
