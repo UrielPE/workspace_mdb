@@ -115,6 +115,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C43F81F32828662100D9C568 /* MovieProfile */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = MovieProfile;
+			sourceTree = "<group>";
+		};
 		C4AC90C42825EDAC0080B176 = {
 			isa = PBXGroup;
 			children = (
@@ -149,6 +156,7 @@
 			children = (
 				C4AC913C28272BCD0080B176 /* MovieLogin */,
 				C4AC916028285C9F0080B176 /* MovieDashboard */,
+				C43F81F32828662100D9C568 /* MovieProfile */,
 				C4AC911D2826E7BD0080B176 /* Common */,
 			);
 			path = Movie;
