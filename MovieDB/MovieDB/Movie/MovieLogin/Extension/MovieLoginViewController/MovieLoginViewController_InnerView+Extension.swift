@@ -12,7 +12,7 @@ extension MovieLoginViewController  :   MovieLoginInnerViewToParentView
     func signIn( model arg : UserRequest )
     {
         self.present(self.indicatorView, animated: false) {
-//            self.presenter?.signIn(model: arg)
+            self.presenter?.signIn(model: arg)
         }
     }
 }

@@ -2,7 +2,7 @@
 //  MovieLoginRouter.swift
 //  MovieDB
 //
-//  Created by Uriel Peña Estel on 07/05/22.
+//  Created by Uriel Peña Estel on 30/04/22.
 //
 
 import Foundation
@@ -14,5 +14,12 @@ class MovieLoginRouter      :   MovieLoginPresenterToRouter
     
     init() {
         //Empty constructor
+    }
+    
+    func goToDashboard()
+    {
+        if let navigation = viewController?.navigationController {
+//            navigation.initRootViewController(MovieDashboardMain.createModule(navigation: navigation))
+        }
     }
 }
