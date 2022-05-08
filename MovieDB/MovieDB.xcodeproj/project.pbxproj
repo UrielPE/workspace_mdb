@@ -38,6 +38,12 @@
 		C4AC915B28285A120080B176 /* MovieLoginView_TextField+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4AC915A28285A120080B176 /* MovieLoginView_TextField+Extension.swift */; };
 		C4AC915D28285A1B0080B176 /* MovieLoginView_ParentView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4AC915C28285A1B0080B176 /* MovieLoginView_ParentView+Extension.swift */; };
 		C4AC915F28285A560080B176 /* MovieLoginViewController_InnerView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4AC915E28285A560080B176 /* MovieLoginViewController_InnerView+Extension.swift */; };
+		C4AC916728285D0D0080B176 /* MovieDashboardPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4AC916128285D0D0080B176 /* MovieDashboardPresenter.swift */; };
+		C4AC916828285D0D0080B176 /* MovieDashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4AC916228285D0D0080B176 /* MovieDashboardViewController.swift */; };
+		C4AC916928285D0D0080B176 /* MovieDashboardMain.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4AC916328285D0D0080B176 /* MovieDashboardMain.swift */; };
+		C4AC916A28285D0D0080B176 /* MovieDashboardProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4AC916428285D0D0080B176 /* MovieDashboardProtocol.swift */; };
+		C4AC916B28285D0D0080B176 /* MovieDashboardRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4AC916528285D0D0080B176 /* MovieDashboardRouter.swift */; };
+		C4AC916C28285D0D0080B176 /* MovieDashboardInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4AC916628285D0D0080B176 /* MovieDashboardInteractor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -74,6 +80,12 @@
 		C4AC915A28285A120080B176 /* MovieLoginView_TextField+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MovieLoginView_TextField+Extension.swift"; sourceTree = "<group>"; };
 		C4AC915C28285A1B0080B176 /* MovieLoginView_ParentView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MovieLoginView_ParentView+Extension.swift"; sourceTree = "<group>"; };
 		C4AC915E28285A560080B176 /* MovieLoginViewController_InnerView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MovieLoginViewController_InnerView+Extension.swift"; sourceTree = "<group>"; };
+		C4AC916128285D0D0080B176 /* MovieDashboardPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieDashboardPresenter.swift; sourceTree = "<group>"; };
+		C4AC916228285D0D0080B176 /* MovieDashboardViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieDashboardViewController.swift; sourceTree = "<group>"; };
+		C4AC916328285D0D0080B176 /* MovieDashboardMain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieDashboardMain.swift; sourceTree = "<group>"; };
+		C4AC916428285D0D0080B176 /* MovieDashboardProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieDashboardProtocol.swift; sourceTree = "<group>"; };
+		C4AC916528285D0D0080B176 /* MovieDashboardRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieDashboardRouter.swift; sourceTree = "<group>"; };
+		C4AC916628285D0D0080B176 /* MovieDashboardInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieDashboardInteractor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +132,7 @@
 			isa = PBXGroup;
 			children = (
 				C4AC913C28272BCD0080B176 /* MovieLogin */,
+				C4AC916028285C9F0080B176 /* MovieDashboard */,
 				C4AC911D2826E7BD0080B176 /* Common */,
 			);
 			path = Movie;
@@ -254,6 +267,19 @@
 			path = Extension;
 			sourceTree = "<group>";
 		};
+		C4AC916028285C9F0080B176 /* MovieDashboard */ = {
+			isa = PBXGroup;
+			children = (
+				C4AC916628285D0D0080B176 /* MovieDashboardInteractor.swift */,
+				C4AC916328285D0D0080B176 /* MovieDashboardMain.swift */,
+				C4AC916128285D0D0080B176 /* MovieDashboardPresenter.swift */,
+				C4AC916428285D0D0080B176 /* MovieDashboardProtocol.swift */,
+				C4AC916528285D0D0080B176 /* MovieDashboardRouter.swift */,
+				C4AC916228285D0D0080B176 /* MovieDashboardViewController.swift */,
+			);
+			path = MovieDashboard;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -330,6 +356,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C4AC916A28285D0D0080B176 /* MovieDashboardProtocol.swift in Sources */,
+				C4AC916728285D0D0080B176 /* MovieDashboardPresenter.swift in Sources */,
 				C4AC914C28272BCD0080B176 /* MovieLoginProtocol.swift in Sources */,
 				C4AC914828272BCD0080B176 /* MovieLoginViewController_Presenter+Extension.swift in Sources */,
 				C4AC90D12825EDAC0080B176 /* AppDelegate.swift in Sources */,
@@ -341,11 +369,15 @@
 				C4AC91352826E9490080B176 /* UITextField+Extension.swift in Sources */,
 				C4AC915928285A080080B176 /* MovieLoginView_Action+Extension.swift in Sources */,
 				C4AC915B28285A120080B176 /* MovieLoginView_TextField+Extension.swift in Sources */,
+				C4AC916C28285D0D0080B176 /* MovieDashboardInteractor.swift in Sources */,
+				C4AC916928285D0D0080B176 /* MovieDashboardMain.swift in Sources */,
 				C4AC914B28272BCD0080B176 /* MovieLoginViewController.swift in Sources */,
 				C4AC91382826EA820080B176 /* Constant.swift in Sources */,
 				C4AC914928272BCD0080B176 /* MovieLoginMain.swift in Sources */,
 				C4AC91322826E9490080B176 /* UIImageView+Extension.swift in Sources */,
+				C4AC916B28285D0D0080B176 /* MovieDashboardRouter.swift in Sources */,
 				C4AC9151282859530080B176 /* MovieLoginViewProtocol.swift in Sources */,
+				C4AC916828285D0D0080B176 /* MovieDashboardViewController.swift in Sources */,
 				C4AC915F28285A560080B176 /* MovieLoginViewController_InnerView+Extension.swift in Sources */,
 				C4AC91332826E9490080B176 /* UIFont+Extension.swift in Sources */,
 				C4AC90DB2825EDAC0080B176 /* MovieDB.xcdatamodeld in Sources */,
