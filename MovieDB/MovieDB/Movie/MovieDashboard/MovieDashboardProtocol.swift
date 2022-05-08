@@ -12,6 +12,9 @@ protocol MovieDashboardViewControllerToPresenter    :   AnyObject
     func logOut()
     
     func getMovies()
+    
+    func showProfile()
+    func showMovieDetail( model arg : Movie )
 }
 
 protocol MovieDashboardInteractorToPresenter        :   AnyObject
@@ -35,4 +38,7 @@ protocol MovieDashboardPresenterToInteractor        :   AnyObject
 protocol MovieDashboardPresenterToRouter            :   AnyObject
 {
     func logOut()
+    
+    func showProfile()
+    func showMovieDetail( model arg : Movie )
 }

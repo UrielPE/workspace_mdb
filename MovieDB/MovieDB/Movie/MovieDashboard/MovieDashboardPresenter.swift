@@ -20,6 +20,14 @@ class MovieDashboardPresenter
 
 extension MovieDashboardPresenter   :   MovieDashboardViewControllerToPresenter
 {
+    func showProfile() {
+        self.router?.showProfile()
+    }
+    
+    func showMovieDetail( model arg : Movie ){
+        self.router?.showMovieDetail(model: arg)
+    }
+
     func getMovies() {
         self.interactor?.getMovies()
     }

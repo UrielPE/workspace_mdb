@@ -19,7 +19,7 @@ class MovieLoginRouter      :   MovieLoginPresenterToRouter
     func goToDashboard()
     {
         if let navigation = viewController?.navigationController {
-            navigation.initRootViewController(MovieDashboardMain.createModule(navigation: navigation))
+            navigation.initRootViewController(MovieDashboardMain.createModule())
         }
     }
 }

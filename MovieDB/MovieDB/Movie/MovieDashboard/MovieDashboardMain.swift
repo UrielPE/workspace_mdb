@@ -10,7 +10,7 @@ import UIKit
 
 class MovieDashboardMain
 {
-    public static func createModule( navigation arg : UINavigationController ) -> UIViewController
+    public static func createModule()-> UIViewController
     {
         let viewController  :   MovieDashboardViewController?   =   MovieDashboardViewController()
         
@@ -28,7 +28,7 @@ class MovieDashboardMain
             
             interactor.presenter    =   presenter
             
-            router.navigation       =   arg
+            router.viewController   =   view
             
             return view
         }
