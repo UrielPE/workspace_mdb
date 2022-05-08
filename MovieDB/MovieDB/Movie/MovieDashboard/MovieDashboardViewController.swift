@@ -28,11 +28,6 @@ class MovieDashboardViewController: UIViewController
         return view
     }()
     
-    internal lazy var profileViewController :   MovieProfileViewController =
-    {
-        MovieProfileViewController()
-    }()
-    
     public var presenter    :   MovieDashboardViewControllerToPresenter?
     
     override func viewDidLoad()

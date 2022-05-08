@@ -19,11 +19,11 @@ extension MovieDashboardViewController
             style: .default)
         { UIAlertAction in
             
-            self.profileViewController.modalTransitionStyle     =   .coverVertical
-            self.profileViewController.modalPresentationStyle   =   .pageSheet
-            self.present(self.profileViewController, animated: true) {
-                //Instructions
-            }
+//            self.profileViewController.modalTransitionStyle     =   .coverVertical
+//            self.profileViewController.modalPresentationStyle   =   .pageSheet
+//            self.present(self.profileViewController, animated: true) {
+//                //Instructions
+//            }
         }
         
         let logOut     =   UIAlertAction(

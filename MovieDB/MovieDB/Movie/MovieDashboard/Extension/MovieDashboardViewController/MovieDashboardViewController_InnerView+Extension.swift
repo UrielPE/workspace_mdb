@@ -11,10 +11,10 @@ extension MovieDashboardViewController  :   MovieDashboardInnerViewToParentView
 {
     func movieSelected(model arg: Movie)
     {
-        let detail  =   MovieDetailMain.createModule(model: arg)
-        detail.modalTransitionStyle     =   .coverVertical
-        detail.modalPresentationStyle   =   .pageSheet
-
-        self.present(detail, animated: true)
+//        let detail  =   MovieDetailMain.createModule(model: arg)
+//        detail.modalTransitionStyle     =   .coverVertical
+//        detail.modalPresentationStyle   =   .pageSheet
+//
+//        self.present(detail, animated: true)
     }
 }
