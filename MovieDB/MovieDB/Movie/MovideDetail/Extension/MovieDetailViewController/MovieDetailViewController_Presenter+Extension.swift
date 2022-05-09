@@ -15,6 +15,6 @@ extension MovieDetailViewController :   MovieDetailPresenterToViewController
     }
     
     func failureSaveFavoriteMovie( message arg  :   MovieDetailResponse) {
-        
+        self.showMessage(title : NSLocalizedString("alert-error-message-title", comment: ""),  message: arg.message)
     }
 }

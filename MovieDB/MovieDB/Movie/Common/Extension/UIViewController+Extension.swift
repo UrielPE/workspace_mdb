@@ -10,9 +10,9 @@ import UIKit
 
 extension UIViewController
 {
-    public func showErrorMessage( message arg : String )
+    public func showMessage(title arg1 : String?,  message arg2 : String? )
     {
-        let alertOptions    =   UIAlertController(title: "alert-error-message-title", message: NSLocalizedString(arg, comment: ""), preferredStyle: .alert)
+        let alertOptions    =   UIAlertController(title: arg1 ?? "", message: NSLocalizedString(arg2 ?? "", comment: ""), preferredStyle: .alert)
         
         let accept     =   UIAlertAction(
             title: NSLocalizedString("alert-error-message-button-accept", comment: ""),
