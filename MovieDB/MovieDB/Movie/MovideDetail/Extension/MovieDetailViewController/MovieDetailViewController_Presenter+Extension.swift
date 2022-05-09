@@ -14,8 +14,7 @@ extension MovieDetailViewController :   MovieDetailPresenterToViewController
         
     }
     
-    func failureSaveFavoriteMovie( message arg  :   MovieDetailResponse)
-    {
+    func failureSaveFavoriteMovie( message arg  :   MovieDetailResponse) {
         
     }
 }
