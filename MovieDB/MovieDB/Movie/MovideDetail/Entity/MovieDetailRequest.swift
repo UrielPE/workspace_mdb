@@ -12,5 +12,5 @@ struct MovieDetailRequest
     public var id       :   String?
     public var title    :   String?
     public var overview :   String?
-    public var image    :   Data?
+    public var image    :   String?
 }

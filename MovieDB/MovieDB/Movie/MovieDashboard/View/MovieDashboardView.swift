@@ -25,7 +25,7 @@ class MovieDashboardView: UIView
         let collectionView              =   UICollectionView(frame: CGRect.zero, collectionViewLayout: self.collectionViewLayout)
         collectionView.delegate         =   self
         collectionView.dataSource       =   self
-        collectionView.backgroundColor  =   UIColor.black
+        collectionView.backgroundColor  =   UIColor.clear
         collectionView.showsHorizontalScrollIndicator   =   false
         collectionView.showsVerticalScrollIndicator     =   true
         collectionView.register(MovieCollectionViewCell.self, forCellWithReuseIdentifier: MovieCollectionViewCell.identifier)

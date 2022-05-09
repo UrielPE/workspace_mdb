@@ -43,22 +43,53 @@ class MovieProfileViewController: UIViewController
         return label
     }()
     
+    private lazy var lbFavoriteMovies   :   UILabel =
+    {
+        let label    =   UILabel()
+        label.text   =  "Favorite Movies"
+        label.textColor     =   UIColor.black
+        label.numberOfLines =   0
+        label.font  =   UIFont.radioCanadaBold(size: 20)
+        
+        return label
+    }()
+    
+    internal lazy var containerView  :   MovieDashboardView  =
+    {
+        let view    =   MovieDashboardView(frame: .zero)
+        view.backgroundColor    =   .white
+        view.translatesAutoresizingMaskIntoConstraints  =   false
+        
+        return view
+    }()
+    
+    public var presenter    :   MovieProfileViewControllerToPresenter?
+    
     override func viewDidLoad()
     {
         super.viewDidLoad()
         
         self.view.backgroundColor   =   .white
         
+        self.getMovies()
+        
         self.loadComponent()
         self.loadComponentLayout()
+    }
+    
+    private func getMovies()
+    {
+        self.presenter?.getMovies()
     }
     
     private func loadComponent()
     {
         self.stackView.addArrangedSubview(self.profileImage)
         self.stackView.addArrangedSubview(self.emailProfile)
+        self.stackView.addArrangedSubview(self.lbFavoriteMovies)
         
         self.view.addSubview(self.stackView)
+        self.view.addSubview(self.containerView)
     }
     
     private func loadComponentLayout()
@@ -68,7 +99,12 @@ class MovieProfileViewController: UIViewController
             self.stackView.topAnchor.constraint(equalTo: self.view.topAnchor),
             self.stackView.leftAnchor.constraint(equalTo: self.view.leftAnchor),
             self.stackView.rightAnchor.constraint(equalTo: self.view.rightAnchor),
-            self.stackView.heightAnchor.constraint(equalToConstant: 100)
+            self.stackView.heightAnchor.constraint(equalToConstant: 100),
+            
+            self.containerView.topAnchor.constraint(equalTo: self.stackView.bottomAnchor),
+            self.containerView.leftAnchor.constraint(equalTo: self.view.leftAnchor),
+            self.containerView.rightAnchor.constraint(equalTo: self.view.rightAnchor),
+            self.containerView.bottomAnchor.constraint(equalTo: self.view.bottomAnchor)
         ])
     }
 }
