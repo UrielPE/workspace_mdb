@@ -25,5 +25,6 @@
 "detail-movie-favorite-button"  =   "Agregar a mis favoritos";
 
 //MARK: Generic Error Message
-"alert-error-message-title"         =   "Upss!";
+"alert-failure-message-title"         =   "Upss!";
+"alert-success-message-title"         =   "Genial!";
 "alert-error-message-button-accept" =   "Aceptar";
