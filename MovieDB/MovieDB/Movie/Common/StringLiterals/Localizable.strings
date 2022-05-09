@@ -15,8 +15,11 @@
 //MARK: Dashboard
 "dashboard-navigation-title"   =   "TV Shows";
 
-//Menu Options
+//MARK: Menu Options
 "dashboard-navigation-menu-title"           =   "What do you want to do?";
 "dashboard-navigation-menu-view-profile"    =   "View Profile";
 "dashboard-navigation-menu-log-out"         =   "Log out";
 "dashboard-navigation-menu-cancel"          =   "Cancel";
+
+//MARK: Detail Movie
+"detail-movie-favorite-button"  =   "Agregar a mis favoritos";

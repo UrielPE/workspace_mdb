@@ -11,6 +11,9 @@ class MovieLoginInteractor  :   MovieLoginPresenterToInteractor
 {
     public weak var presenter    :   MovieLoginInteractorToPresenter?
     
+    private var username    :   String?
+    private var password    :   String?
+    
     init() {
         //Empty constructor
     }
@@ -21,11 +24,14 @@ class MovieLoginInteractor  :   MovieLoginPresenterToInteractor
             let username = arg.username,
             let password = arg.password,
             
-            username == "uriel@moviedb.com" && password == "12345678"
+            let username_   =   Bundle.main.infoDictionary?["MV_USER"] as? String,
+            let password_   =   Bundle.main.infoDictionary?["MV_PASS"] as? String,
+            
+            username == username_ && password == password_
         {
             self.presenter?.successSignIn(
                 model: UserResponse(
-                    username: "uriel@moviedb.com", password: "12345678")
+                    username: username_, password: password_)
             )
         }
         

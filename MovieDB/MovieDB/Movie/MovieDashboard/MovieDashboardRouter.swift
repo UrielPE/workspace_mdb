@@ -23,11 +23,11 @@ extension MovieDashboardRouter : MovieDashboardPresenterToRouter
     {
         if let view =   self.viewController
         {
-            let profileViewController   =   MovieProfileViewController()
-            profileViewController.modalTransitionStyle     =   .coverVertical
-            profileViewController.modalPresentationStyle   =   .pageSheet
+            let profile   =   MovieProfileMain.createModule()
+            profile.modalTransitionStyle     =   .coverVertical
+            profile.modalPresentationStyle   =   .pageSheet
             
-            view.present(profileViewController, animated: true)
+            view.present(profile, animated: true)
         }
     }
     

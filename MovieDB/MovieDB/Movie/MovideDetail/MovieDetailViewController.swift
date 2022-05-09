@@ -15,7 +15,7 @@ class MovieDetailViewController: UIViewController
         stackView.axis          =   .vertical
         stackView.alignment     =   .center
         stackView.distribution  =   .equalSpacing
-        stackView.spacing       =   5
+        stackView.spacing       =   8
         stackView.layoutMargins =   UIEdgeInsets(top: 10, left: 30, bottom: 10, right: 30)
         stackView.isLayoutMarginsRelativeArrangement        =   true
         stackView.translatesAutoresizingMaskIntoConstraints =   false
@@ -57,7 +57,23 @@ class MovieDetailViewController: UIViewController
         return label
     }()
     
-    public var movie    :   Movie?
+    private lazy var btnSignIn  :   UIButton    =
+    {
+        let button   =   UIButton()
+        button.layer.cornerRadius   =   3
+        button.titleLabel?.font =   UIFont.radioCanadaRegular(size: 18)
+        button.backgroundColor  =   UIColor(red: 229/255, green: 9/255, blue: 20/255, alpha: 1)
+        button.setTitle(NSLocalizedString("detail-movie-favorite-button", comment: ""), for: .normal)
+        button.setTitleColor(UIColor.white, for: .normal)
+        button.addTarget(self, action: #selector(self.addFavoriteMovie), for: .touchUpInside)
+        button.translatesAutoresizingMaskIntoConstraints    =   false
+        
+        return button
+    }()
+    
+    internal var movie      :   Movie?
+    
+    public var presenter    :   MovieDetailViewControllerToPresenter?
     
     override func viewDidLoad()
     {
@@ -87,6 +103,7 @@ class MovieDetailViewController: UIViewController
         self.stackView.addArrangedSubview(self.movieTitle)
         self.stackView.addArrangedSubview(self.movieImage)
         self.stackView.addArrangedSubview(self.movieDetail)
+        self.stackView.addArrangedSubview(self.btnSignIn)
         
         self.view.addSubview(self.stackView)
     }
@@ -98,7 +115,11 @@ class MovieDetailViewController: UIViewController
             self.stackView.leftAnchor.constraint(equalTo: self.view.leftAnchor),
             self.stackView.rightAnchor.constraint(equalTo: self.view.rightAnchor),
             self.stackView.centerXAnchor.constraint(equalTo: self.view.centerXAnchor),
-            self.stackView.centerYAnchor.constraint(equalTo: self.view.centerYAnchor)
+            self.stackView.centerYAnchor.constraint(equalTo: self.view.centerYAnchor),
+            
+            self.btnSignIn.leftAnchor.constraint(equalTo: self.view.leftAnchor, constant: 30),
+            self.btnSignIn.rightAnchor.constraint(equalTo: self.view.rightAnchor, constant: -30),
+            self.btnSignIn.heightAnchor.constraint(equalToConstant: 50)
         ])
     }
 }
