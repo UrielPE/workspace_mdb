@@ -9,6 +9,15 @@ import UIKit
 
 class MovieDetailViewController: UIViewController
 {
+    internal lazy var indicatorView   :   LoadingIndicatorViewController  =
+    {
+        let indicatorView   =   LoadingIndicatorViewController()
+        indicatorView.modalTransitionStyle      =   .crossDissolve
+        indicatorView.modalPresentationStyle    =   .overCurrentContext
+        
+        return indicatorView
+    }()
+    
     public lazy var stackView   :   UIStackView =
     {
         let stackView           =   UIStackView()
@@ -35,7 +44,7 @@ class MovieDetailViewController: UIViewController
         return label
     }()
     
-    private lazy var movieImage :   UIImageView =
+    internal lazy var movieImage :   UIImageView =
     {
         let imageView           =   UIImageView()
         imageView.contentMode   =   .scaleToFill

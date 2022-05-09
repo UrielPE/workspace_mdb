@@ -30,6 +30,8 @@ class MovieDetailMain
             interactor.presenter   =   presenter
             
             router.view            =   viewController
+            
+            return viewController
         }
 
         return UIViewController()

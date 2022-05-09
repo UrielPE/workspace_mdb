@@ -20,7 +20,7 @@ class MovieDetailPresenter
 
 extension MovieDetailPresenter  :   MovieDetailViewControllerToPresenter
 {
-    func saveFavoriteMovie(model arg: Movie) {
+    func saveFavoriteMovie(model arg: MovieDetailRequest) {
         self.interactor?.saveFavoriteMovie(model: arg)
     }
 }

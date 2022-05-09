@@ -9,7 +9,7 @@ import Foundation
 
 protocol MovieDetailViewControllerToPresenter   :   AnyObject
 {
-    func saveFavoriteMovie( model arg : Movie )
+    func saveFavoriteMovie( model arg : MovieDetailRequest )
 }
 
 protocol MovieDetailInteractorToPresenter       :   AnyObject
@@ -26,7 +26,7 @@ protocol MovieDetailPresenterToViewController   :   AnyObject
 
 protocol MovieDetailPresenterToInteractor       :   AnyObject
 {
-    func saveFavoriteMovie( model arg : Movie )
+    func saveFavoriteMovie( model arg : MovieDetailRequest )
 }
 
 protocol MovieDetailPresenterToRouter           :   AnyObject

@@ -26,5 +26,5 @@
 
 //MARK: Generic Error Message
 "alert-failure-message-title"         =   "Upss!";
-"alert-success-message-title"         =   "Genial!";
+"alert-success-message-title"         =   "Cool!";
 "alert-error-message-button-accept" =   "Aceptar";
